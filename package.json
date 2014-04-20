@@ -7,7 +7,7 @@
     "description"     : "An ES6 to ES5 transformer, optionally convert AMD module to YUI3 style",
     "version"         : "0.0.1",
     "keywords"        : [
-        "recast",
+        "jstransform",
         "ast",
         "rewriting",
         "refactoring",
@@ -35,7 +35,6 @@
     "dependencies"    : {
         "minimist"    : "0.0.8",
         "bluebird"    : "1.1.0",
-        "recast"      : "0.5.9",
         "esprima"     : "git://github.com/ariya/esprima.git#harmony",
         "jstransform" : "3.0.0"
     },
