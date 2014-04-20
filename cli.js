@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /**
  * Copyright (c) 2014, Gopal Venkatesan <gv@g13n.me>
  * All rights reserved.
