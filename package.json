@@ -36,6 +36,7 @@
         "minimist"    : "0.0.8",
         "bluebird"    : "1.1.0",
         "esprima"     : "git://github.com/ariya/esprima.git#harmony",
+        "esprima-fb"  : "~3001.1.0-dev-harmony-fb",
         "jstransform" : "3.0.0"
     },
     "devDependencies" : {
