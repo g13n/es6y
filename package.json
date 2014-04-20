@@ -1,0 +1,47 @@
+{
+    "author"          : {
+        "name"        : "Gopal Venkatesan",
+        "email"       : "gv@g13n.me"
+    },
+    "name"            : "es6y",
+    "description"     : "An ES6 to ES5 transformer, optionally convert AMD module to YUI3 style",
+    "version"         : "0.0.1",
+    "keywords"        : [
+        "recast",
+        "ast",
+        "rewriting",
+        "refactoring",
+        "codegen",
+        "syntax",
+        "transformation",
+        "parsing",
+        "pretty-printing"
+    ],
+    "license"         : "MIT",
+    "repository"      : {
+        "type"        : "git",
+        "url"         : "https://github.com/g13n/es6y"
+    },
+    "bugs"            : {
+        "url"         : "https://github.com/g13n/es6y/issues"
+    },
+    "main"            : "cli.js",
+    "bin"             : {
+        "es6y"    : "./cli.js"
+    },
+    "engines"         : {
+        "node"        : ">= 0.8.x"
+    },
+    "dependencies"    : {
+        "minimist"    : "0.0.8",
+        "bluebird"    : "1.1.0",
+        "recast"      : "0.5.9",
+        "esprima"     : "git://github.com/ariya/esprima.git#harmony",
+        "jstransform" : "3.0.0"
+    },
+    "devDependencies" : {
+        "chai"        : "1.9.x"
+    },
+    "readme"          : "An ES6 to ES5 transformer, optionally convert AMD module to YUI3 style",
+    "readmeFilename"  : "README.md"
+}
