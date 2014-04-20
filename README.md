@@ -5,12 +5,14 @@ An ES6 to ES5 transformer, optionally convert AMD module to YUI3 style using the
 
 The following program:
 
-		define('yui-module-greeter', [ 'yui', 'node' ], function (Y, node) {
-	    	console.log(Y.one('#greet').setHTML('hello, world'));
+		define('yui-module-test', [ 'yui', 'node' ], function (Y, node) {
+		    console.log(Y.one('#node').setHTML([3, 1, 2].sort((a, b) => { return b - a; })));
 		});
 
 gets transformed into:
 
-		YUI.add('yui-module-greeter', function (Y) {
-		    console.log(Y.one('#greet').setHTML('hello, world'));
+		YUI.add('yui-module-test', function (Y) {
+		    console.log(Y.one('#node').setHTML([3, 1, 2].sort(function(a, b)  { return b - a; })));
 		}, { version: '1.0.0', requires: [ 'node' ] });
+
+Run `es6y --help` to get started.
