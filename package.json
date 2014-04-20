@@ -17,7 +17,7 @@
         "parsing",
         "pretty-printing"
     ],
-    "license"         : "MIT",
+    "license"         : "BSD",
     "repository"      : {
         "type"        : "git",
         "url"         : "https://github.com/g13n/es6y"
