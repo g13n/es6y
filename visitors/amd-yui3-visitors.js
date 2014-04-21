@@ -38,7 +38,7 @@ var utils = require('jstransform/src/utils');
 
 /**
  * Render YUI requires list
- * 
+ *
  * @param  {Object} traverse
  * @param  {Object} node
  * @param  {Object} path
@@ -62,7 +62,7 @@ function renderRequires(traverse, node, path, state) {
 
 /**
  * Render the function body
- * 
+ *
  * @param  {Object} traverse
  * @param  {Object} node
  * @param  {Object} path
@@ -79,7 +79,7 @@ function renderFunction(traverse, node, path, state) {
 
 /**
  * The AMD -> YUI3 transformer visitor
- * 
+ *
  * @param  {Object} traverse
  * @param  {Object} node
  * @param  {Object} path
@@ -112,7 +112,7 @@ function visitAmdYui3(traverse, node, path, state) {
 
 /**
  * Check if the source is an AMD module
- * 
+ *
  * @param  {Object} node
  * @param  {Object} path
  * @param  {Object} state
