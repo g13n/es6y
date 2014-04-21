@@ -5,7 +5,7 @@
     },
     "name"            : "es6y",
     "description"     : "An ES6 to ES5 transformer, optionally convert AMD module to YUI3 style",
-    "version"         : "0.0.3",
+    "version"         : "0.0.4",
     "keywords"        : [
         "jstransform",
         "ast",
@@ -40,6 +40,7 @@
         "jstransform" : "3.0.0"
     },
     "devDependencies" : {
+        "mocha"       : "^1.18.2",
         "chai"        : "1.9.x"
     },
     "readme"          : "An ES6 to ES5 transformer, optionally convert AMD module to YUI3 style",
