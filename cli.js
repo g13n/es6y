@@ -59,7 +59,7 @@ function usageExit() {
     var helpText = [
         'Transform ES6 files to current ES5 versions optionally converting AMD modules to YUI3',
         '',
-        'usage: ' + PROGNAME + ' [--help] [--outdir=OUTPUT-DIRECTORY] [file ...]',
+        'usage: ' + PROGNAME + ' [--help] [--outdir=OUTPUT-DIRECTORY] [--yui3] [file ...]',
         '',
         '--help                     Print this help text',
         '--outdir=OUTPUT-DIRECTORY  Write transformed files into this directory',
