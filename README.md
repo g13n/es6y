@@ -13,6 +13,13 @@ gets transformed into:
 
 		YUI.add('yui-module-test', function (Y) {
 		    console.log(Y.one('#node').setHTML([3, 1, 2].sort(function(a, b)  { return b - a; })));
-		}, { version: '1.0.0', requires: [ 'node' ] });
+		}, '1.0.0', { requires: [ 'node' ] });
 
 Run `es6y --help` to get started.
+
+# Running
+
+		shell$ es6y --yui3 -- input.js
+		# creates compiled/input.js
+		shell$ es6y --yui3 <input.js
+		# outputs the converted file on standard output
