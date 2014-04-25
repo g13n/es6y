@@ -5,7 +5,7 @@
     },
     "name"            : "es6y",
     "description"     : "An ES6 to ES5 transformer, optionally convert AMD module to YUI3 style",
-    "version"         : "0.0.4",
+    "version"         : "0.0.5",
     "keywords"        : [
         "jstransform",
         "ast",
