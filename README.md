@@ -23,3 +23,5 @@ Run `es6y --help` to get started.
 		# creates compiled/input.js
 		shell$ es6y --yui3 <input.js
 		# outputs the converted file on standard output
+		shell$ es6y --outdir=/tmp/js --yui3 -- file1.js file2.js
+		# creates /tmp/js/file1.js, /tmp/js/file2.js with the converted output
