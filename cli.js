@@ -44,10 +44,12 @@ function transformInput(code, fileName, dirName, yuify) {
     transformers.getTransformers(yuify)
         .then(function (visitors) {
             file.putContents(jsTransform.transform(visitors, code).code, fileName, dirName)
-                .catch(Error, function (e) {
-                    console.error(e);
+                .catch(function (e) {
+                    if (e && e.cause.code !== 'EEXIST') {
+                        console.error('Error writing ' + fileName);
+                    }
                 });
-        }).error(function (e) {
+        }).catch(function (e) {
             console.error(e);
         });
 }
