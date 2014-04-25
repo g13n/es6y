@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/g13n/es6y.png)](https://travis-ci.org/g13n/es6y)
+
 # ES6Y
 
 An ES6 to ES5 transformer, optionally convert AMD module to YUI3 style using the Facebook's
