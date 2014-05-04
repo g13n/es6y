@@ -2,7 +2,7 @@
 
 # ES6Y
 
-An ES6 to ES5 transformer, optionally convert AMD module to YUI3 style using the Facebook's
+An ES6 to ES5 [transpiler](http://en.wikipedia.org/wiki/Source-to-source_compiler) optionally convert AMD module to YUI3 style using the Facebook's
 [jstransform](https://github.com/facebook/jstransform) module.
 
 The following program:
